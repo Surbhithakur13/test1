@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4044" started-at="2019-05-22T05:36:22Z" finished-at="2019-05-22T05:36:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4044" started-at="2019-05-22T05:36:22Z" finished-at="2019-05-22T05:36:26Z">
+      <class name="com.fbk.TestCases.TestCase">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.fbk.TestCases.TestCase@4e04a765]" name="add" duration-ms="22" started-at="2019-05-22T05:36:22Z" finished-at="2019-05-22T05:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- com.fbk.TestCases.TestCase -->
+      <class name="com.facebook.Login.Driver">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.facebook.Login.Driver@783e6358]" name="Launch" duration-ms="3993" started-at="2019-05-22T05:36:22Z" finished-at="2019-05-22T05:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+      </class> <!-- com.facebook.Login.Driver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

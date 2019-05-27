@@ -1,0 +1,76 @@
+id - com.facebook
+artifact id - com.facebook.Login
+
+
+
+mvnrepository.com
+src/main/java-
+src/test/java-test cases
+src/test/resouces- excel, xml, execl utility
+pom.xml- project object model-  main or heart of amven
+
+go to project 
+riight click and go to properties
+copy location
+opn cmd
+cd/
+cd paste
+mvn clean install /// it creates bulid every tym
+enter
+build success 
+type mvn test/// run ol the test cases provide
+
+
+
+
+src/main/java
+1st pacakage
+com.facebook.configuration
+make name.properties
+their save common properties  
+key = value
+1.url=
+ 2.browser
+ 3. systemproperty
+ 4.username
+ 5. passswrd
+ 
+ com.QA.TestBase 
+ properties comes from util pacakage
+ 
+ fetch data from properties
+ 1. fileinputstream x=new fileinputstream(location or path)
+ 2. obj. (of properties)=new Properties();
+ obj.load(x);
+ 
+ 
+ read static void initialization
+ POM learn from """""""""""" orangehrmlive.com"""""""
+ 
+  src/main/java---------------config/pages/Base
+ src/main/resources
+ src/test/java--------------test cases
+ src/test/resources-----------xls/xls-reader/driver/testng.xml
+ 
+ steps 
+ step 1
+ src/main/java
+ com.config--------------.properties file(environment variables)
+ com.facebook.pages------- web elements/Methods      Login   signup
+ com.facebook.base--------TestBase.java
+ 							(Initialization of web driver)
+ 							
+step 2
+src/test/java----------com.facebook.TestCases 
+dynamic elements handle
+file upload 
+sikulitool
+ab testing
+
+
+
+ 
+ 
+ 
+ 
+ 

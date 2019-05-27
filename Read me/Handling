@@ -1,0 +1,30 @@
+'''''''''''Alert handling'''''''
+ alert methods 
+ 1 accept();   2 dismiss();   3 getText();  4 sendKeys("any i/p u want to send");
+ driver.switchTo().alert().1/2/3/4;
+ 
+thread.sleep(3000);------- static wait  throws Interrupted exception
+
+''''''''''FrameHandling'''''''''  
+driver.switchTo().frame("name");
+i frame  --- internal frame  example in maps.... they show map or area in frame rather then sending us to another site
+
+learn frame from  w3school 
+
+::: use submit Button if the type is submit in inspect;;;
+:: for particular checkbox  we use 'value' in inspect e.g. by.xpath("//input[@value]='0038'")
+
+'''''''''''MouseMovement/Drag and Drop''''''''''   jqueryui.com/droppable
+
+always give build() and perform() in case of mouse handling
+action class is for event handling  also for keyboard
+Actions action=new Actions(driver);
+action.clickAndHold(driver.findElement(By.id("name"))).moveToElement(driver.findElement(By.id("target name"))).release().build().perform();
+learn to do keyboard 
+assgn of mouse handling in btes.co.in 		$$
+
+''''''''''WindowHandle'''''''''''
+use of Collections
+learn your own 
+assgn naukri.com handle popup 				$
+assgn bbc.com   newsheadline pick and print   $$
