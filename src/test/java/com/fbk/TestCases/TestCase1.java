@@ -8,7 +8,7 @@ public class TestCase1 {
 	@Test
 	public void add()
 	{
-		System.out.println("Add");
+		
 	Assert.assertEquals(30, a+b);
 	}
 	@Test
